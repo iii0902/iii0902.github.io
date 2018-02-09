@@ -118,4 +118,6 @@ $("#search").click(function(){
         minDate: new Date()
     });
 
+    $("#datepicker").datepicker( "setDate", new Date() );
+
 })(jQuery);
